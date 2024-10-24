@@ -40,3 +40,24 @@ print(akun_budi.cek_saldo())
 
 # Akses dengan name mangling (tidak disarankan, hanya untuk ilustrasi)
 print(akun_budi._AkunBank__saldo)  
+
+
+'''
+
+Inti dari penggunaan private variable adalah untuk melindungi data agar tidak bisa dimanipulasi secara langsung dari luar class. Berikut adalah beberapa poin penting yang menjelaskan konsep ini:
+
+Inti Konsep Private Variable
+
+1. Akses Terbatas:
+
+    Variabel yang ditandai sebagai private (misalnya, dengan dua garis bawah __) hanya bisa diakses dan dimanipulasi dari dalam class itu sendiri. Ini membantu menjaga integritas data.
+
+2. Manipulasi Internal:
+
+    Di dalam class, kamu bebas untuk mengakses dan memanipulasi variabel private tanpa batasan. Ini memungkinkan logika dan aturan bisnis tertentu untuk diterapkan ketika data diubah.
+
+3. Keamanan Data:
+
+    Dengan menghindari akses langsung dari luar class, kamu dapat mencegah perubahan yang tidak diinginkan atau tidak valid pada data. Ini penting untuk menjaga konsistensi dan keandalan objek.
+
+'''
