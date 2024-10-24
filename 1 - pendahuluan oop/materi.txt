@@ -1,0 +1,8 @@
+Object-Oriented Programming (OOP) adalah gaya pemrograman yang berfokus pada objek. Di sini, kita mencoba meniru dunia nyata dengan membagi program menjadi objek-objek yang saling berinteraksi. Berikut penjelasan mudahnya:
+
+- Objek        : Seperti benda nyata. Misalnya, mobil adalah objek. Mobil memiliki atribut (warna, merek) dan fungsi (bisa berjalan, berhenti).
+- Kelas        : Cetak biru atau template untuk membuat objek. Misalnya, "Mobil" adalah kelas, dan mobilmu adalah objek dari kelas itu.
+- Encapsulation: Membungkus data dan fungsi dalam satu objek sehingga tidak sembarangan diubah dari luar. Seperti memiliki kotak alat di mana hanya kamu yang bisa memakainya.
+- Inheritance  : Pewarisan sifat. Misalnya, kamu punya kelas "Hewan," dan kelas "Kucing" mewarisi semua sifat dari "Hewan" (bisa bergerak, makan).
+- Polymorphism : Kemampuan objek untuk memiliki banyak bentuk. Misalnya, "Hewan" bisa bergerak, tapi gerakan kucing dan burung berbeda.
+- Jadi, OOP mempermudah kita mengelola program dengan membaginya menjadi objek-objek kecil yang lebih mudah dipahami dan dikelola.
