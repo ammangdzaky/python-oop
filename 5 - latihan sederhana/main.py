@@ -32,8 +32,8 @@ class hero:
         
 
 # BUAT OBJEKNYA DISINI
-ambatron = hero(name="AMBATRON", health=100, armor=20, attack=random.randint(1,5))
-ambatukam = hero("AMBATUKAM",100,random.randint(1,5),20) 
+ambatron = hero(name="AMBATRON", health=100, armor=15, attack=random.randint(10,15))
+ambatukam = hero("AMBATUKAM",100,random.randint(10,15),15) 
 
 
 # PERANG ANTARA AMBATRON DAN AMBATUKAM DIMULAI!!!!
