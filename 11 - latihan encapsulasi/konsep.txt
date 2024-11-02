@@ -1,0 +1,7 @@
+ada dua hero yang saling serang
+
+terdapat sistem leveling dan exp
+
+semakin tinggi banyak exp, maka semakin tinggi level, semakin tinggi level maka atribut hero semakin oke
+
+exp tidak boleh/bisa dilihat oleh user
