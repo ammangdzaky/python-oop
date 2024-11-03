@@ -21,7 +21,7 @@ class Marksman(Hero):
     def __init__(self, name):
         super().__init__(name,100) # rekomend
         
-        super().info()
+        super().info() # -> super mengacu pada superclass
 
 
 # misal health default untuk tank yaitu 100
