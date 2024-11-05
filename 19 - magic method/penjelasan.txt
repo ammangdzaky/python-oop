@@ -1,0 +1,29 @@
+(alt + z) -> mode baca
+
+Magic methods (atau dunder methods, karena nama mereka dikelilingi oleh dua garis bawah) dalam Python adalah metode khusus yang memungkinkan kita untuk mengubah perilaku built-in dari objek. Dengan menggunakan magic methods, kita dapat mendefinisikan bagaimana objek kita berperilaku dalam konteks tertentu, seperti saat melakukan operasi aritmetika, pembandingan, atau ketika objek dicetak.
+
+
+1. __init__(self, ...)
+Metode ini dipanggil ketika sebuah objek dari kelas dibuat. Ini adalah constructor dan digunakan untuk menginisialisasi atribut objek.
+
+2. __str__(self)
+Metode ini digunakan untuk mengembalikan string yang representatif dari objek, dan biasanya dipanggil oleh fungsi print().
+
+3. __repr__(self)
+Mirip dengan __str__, tetapi __repr__ dirancang untuk menghasilkan string yang lebih formal dan dapat digunakan untuk membuat objek kembali menggunakan eval().
+
+4. __add__(self, other)
+Metode ini memungkinkan penggunaan operator + untuk objek kita. Kita bisa mendefinisikan bagaimana dua objek dari kelas kita dapat dijumlahkan.
+
+5. __sub__(self, other)
+Mengizinkan penggunaan operator - untuk objek kita.
+
+6. __eq__(self, other)
+Metode ini memungkinkan kita untuk mendefinisikan bagaimana dua objek dibandingkan dengan operator ==.
+
+7. __len__(self)
+Metode ini memungkinkan kita untuk mendefinisikan bagaimana mendapatkan panjang objek menggunakan fungsi len().
+
+8. __getitem__(self, key)
+Metode ini memungkinkan kita untuk menggunakan notasi indeks pada objek kita, mirip dengan list atau dictionary.
+
